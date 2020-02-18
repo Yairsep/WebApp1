@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada:300,400,700&display=swap');
+
+body {
+  /*background: #505050;*/
+  background: rgba(255,200,100,.5);
+  color: cornflowerblue;
+  font-family: "Lemonada", sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+h3{
+  color: #24292e;
+}
+
+body h3{
+  color: blueviolet;
+}
+
+body > header > h3 {
+  background: #1976d2;
+}
+
+#main_header{
+  border-bottom: 5px solid #24292e;
+}

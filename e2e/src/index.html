@@ -1,66 +1,141 @@
-<html xmlns="http://www.w3.org/1999/html">
+<!DOCTYPE html>
+
+<html>
 <head>
   <title>My First Website</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="This is Yair Sepunaru official website">
+  <meta name="keywords" content="html5,css,javascript,udemy">
+  <meta name="author" content="Yair Sepunaru">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
 
-<header height="100">
-  <h1>My First Website</h1>
-  <h3>This is Project #1</h3>
+<header id="main_header" height="100">
+  <h1>Yair Sepunaru Website</h1>
+  <h3>This is my #1 Project using html</h3>
 </header>
 
 <main>
-  <aside>
-    This is some side content
-  </aside>
+<!--  <aside>-->
+<!--    This is some side content-->
+<!--  </aside>-->
 
   <section>
     <h2>About Me</h2>
-      <p>My Name is Yair Sepunaru bla bla bla</p>
+      <p>My Name is Yair Sepunaru, I am a 2nd year student at Ben-Gurion University studying computer science</p>
   </section>
 
-  <section>
-    <article>
-      <a href="https://github.com/Yairsep">
-        <h3>My github profile</h3>
-      </a>
-      <p>This profile contains Repositories of projects I have made during SPL Course</p>
-      <img src="githublogo.jpg"/>
-    <br /><br />
+  <!------------------------Social Networks Table--------------->
 
-    </article>
-  </section>
-
-  <section id="contact form">
-    <form method="GET" action="place-order.php">
-
-    </form>
-  </section>
-
-<!--Table-->
   <section>
     <table border="1px">
       <thead>
       <tr>
-        <th width="200">Type</th>
-        <th width="300">Ingridents</th>
-        <th>Price</th>
+        <th width="200">Social Network</th>
+        <th width="300">Link</th>
+        <th>Details</th>
       </tr>
       </thead>
       <tbody>
       <tr>
-        <td>Peperrony</td>
-        <td>Chessee, peperoni</td>
-        <td>18$</td>
+        <td>Github <br/>
+          <img src="../../src/images/githublogo.jpg" alt="text" width="128" height="128"/></td>
+        <td>
+          <section>
+            <article>
+              <a href="https://github.com/Yairsep">
+                <h3>My github profile</h3>
+              </a>
+            </article>
+
+          </section>
+        </td>
+        <td> <p>This profile contains Repositories of projects I have made during SPL Course</p></td>
       </tr>
+
+      <tr>
+        <td>Facebook <br/>
+          <img src="../../src/images/githublogo.jpg" alt="text" width="128" height="128"/></td>
+        <td>
+          <section>
+            <article>
+              <a href="https://facebook.com/Yairsep">
+                <h3>My facebook profile</h3>
+              </a>
+            </article>
+
+          </section>
+        </td>
+        <td> <p>This is my facebook profile</p></td>
+      </tr>
+
       </tbody>
     </table>
   </section>
 
-  <br />
-  <br />
-  <br />
+  <!------------------------/Social Networks Table--------------->
+  <br /><br />
+
+  <br /><br/>
+  <!------------------------Subscribe--------------->
+  <section id="Subscribe form">
+    <h3>Subscribe</h3>
+    <!------------------------PHP--------------->
+    <form method="GET" action="place-order.php">
+      <!------------------------/PHP--------------->
+
+    <!------------------------Select--------------->
+    <h4>Who are you?</h4>
+    <label>
+      <select name = how_are_you>
+        <option value="student">I am a student</option>
+        <option value = "Proppesor">Proppesor</option>
+        <option value = "Recuitor">Recuitor</option>
+      </select>
+    </label>
+    <br/>
+    <br/>
+    <!------------------------/Select--------------->
+      <input name="Subscribe" placeholder="Enter your Email" class="email_subscription"/><br />
+      <input name="Send me an email" type="checkbox" /> Send me your email <br/>
+      <br/>
+      <input name="a_student" type="radio" value="Student" /> I am a student<br/>
+      <input name="a_student" type="radio" value="Not Student" />I am not a student<br/>
+
+      <br/>
+      <button type = "send">Send!</button>
+    </form>
+  </section>
+
+  <!------------------------/Subscribe--------------->
+
+  <!------------------------Video--------------->
+  <section>
+    <video width="400" height="300" controls>
+      <source src = "../../src/videos/simpsons.mp4" type="video/mp4">
+    </video>
+  </section>
+    <!------------------------/video--------------->
+  <br/><br/>
+  <!------------------------Audio--------------->
+  <section>
+    <audio id="tadow" width="400" controls>
+      <source src = "../../src/audio/tadow.mp3" type="audio/mp3">
+    </audio>
+  </section>
+
+      <!--------autoPlay--------->
+<!--  <section>-->
+<!--    <audio width="400" autoplay>-->
+<!--      <source src = "../../src/audio/tadow.mp3" type="audio/mp3">-->
+<!--    </audio>-->
+<!--  </section>-->
+
+  <!------------------------/Audio--------------->
 
   <footer>
     <center>&copy 2020<br /></center>
