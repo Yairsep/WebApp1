@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada:300,400,700&display=swap');
+
+body {
+  /*background: #505050;*/
+  background: rgba(255,200,100,.5);
+  color: cornflowerblue;
+  font-family: "Lemonada", sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+h3{
+  color: #24292e;
+}
+
+body h3{
+  color: blueviolet;
+}
+
+body > header > h3 {
+
+}
+
+#main_header{
+  text-align: center;
+}
+
+#table{
+  color: brown;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
