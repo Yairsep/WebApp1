@@ -18,12 +18,11 @@ body h3{
 }
 
 body > header > h3 {
-  background: #1976d2;
+
 }
 
 #main_header{
   text-align: center;
-  border-bottom: 5px solid #24292e;
 }
 
 #table{
