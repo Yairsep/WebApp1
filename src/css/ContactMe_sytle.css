@@ -22,8 +22,12 @@ body > header > h3 {
 
 }
 
+.email_subscription{
+  border-radius: 5px;
+}
 .Subscribe_form{
 font-family: "Crimson Text", sans-serif;
+  margin: 10px;
 }
 
 #main_header{
@@ -33,6 +37,10 @@ font-family: "Crimson Text", sans-serif;
 #table{
   color: brown;
 }
+
+
+/*--------------------------------------Menu Design--------------------------
+
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -67,3 +75,5 @@ font-family: "Crimson Text", sans-serif;
 .topnav .icon {
   display: none;
 }
+
+/*--------------------------------------/Menu Design--------------------------

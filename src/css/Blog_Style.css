@@ -35,6 +35,10 @@ body > header > h3 {
   color: brown;
 }
 
+
+/*--------------------------------------Menu Design--------------------------
+
+ */
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -68,3 +72,5 @@ body > header > h3 {
 .topnav .icon {
   display: none;
 }
+
+/*--------------------------------------/Menu Design--------------------------

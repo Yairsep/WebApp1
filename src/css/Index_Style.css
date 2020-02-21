@@ -10,6 +10,10 @@ body {
   /*text-shadow: 1px -5px 5px #000000;*/
 }
 
+.Welcome{
+  margin: 20px;
+}
+
 h3{
   color: #24292e;
 }
@@ -30,6 +34,8 @@ body > header > h3 {
   color: brown;
 }
 
+
+/*--------------------------------------Menu Design--------------------------
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -63,3 +69,5 @@ body > header > h3 {
 .topnav .icon {
   display: none;
 }
+
+/*-------------------------------------/Menu Design--------------------------
