@@ -9,7 +9,7 @@
   <meta name="author" content="Yair Sepunaru">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="../css/ContactMe_sytle.css" />
+  <link rel="stylesheet" href="css/ContactMe_sytle.css" />
 </head>
 
 <body>
@@ -44,7 +44,7 @@
   <section class="Subscribe_form">
     <h1>Subscribe</h1>
     <!------------------------PHP--------------->
-    <form method="GET" action="place-order.php">
+<!--    <form method="GET" action="place-order.php">-->
       <!------------------------/PHP--------------->
 
       <!------------------------Select--------------->
@@ -67,10 +67,14 @@
       <br/>
       <input name="Subscribe" placeholder="Comments" class="message"/><br />
       <br/><br/>
-      <button type = "send">Send!</button>
-    </form>
-  </section>
 
+
+
+<!--    </form>-->
+  </section>
+  <button id="send-button">Send!</button>
+  <br/>
+  <div id="text">Waiting...</div>
   <br/><br/>
   <!------------------------/Subscribe--------------->
   <footer>
@@ -80,6 +84,6 @@
 
 </main>
 
-
+<script src="js/main.js"></script>
 </body>
 </html>
